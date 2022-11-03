@@ -14,7 +14,7 @@ def main(context):
 class SMITTY_OT_AdjustRiggingToShape(bpy.types.Operator):
     """Tooltip"""
     bl_idname = "smitty.select_deform_bones"
-    bl_label = "Select all only Deform Bones"
+    bl_label = "Select only Deform Bones"
 
     @classmethod
     def poll(cls, context):
