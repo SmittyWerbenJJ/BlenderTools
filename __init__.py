@@ -24,7 +24,7 @@ bl_info = {
 }
 
 from . import ui
-from .src import select_deform_bones,Batch_Export_Shapkeys_as_OBJs
+from .src import select_deform_bones,Batch_Export_Shapkeys_as_OBJs,select_bones_used_by_mesh
 
 import bpy
 # ---------------------------------------------
@@ -35,8 +35,8 @@ import bpy
 tools=[
     ui,
     select_deform_bones,
-    Batch_Export_Shapkeys_as_OBJs
-
+    Batch_Export_Shapkeys_as_OBJs,
+    select_bones_used_by_mesh
 ]
 
 def register():
