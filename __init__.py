@@ -24,7 +24,7 @@ bl_info = {
 }
 
 from . import ui
-from .src import select_deform_bones
+from .src import select_deform_bones,Batch_Export_Shapkeys_as_OBJs
 
 import bpy
 # ---------------------------------------------
@@ -34,7 +34,8 @@ import bpy
 #ui has to be registered first
 tools=[
     ui,
-    select_deform_bones
+    select_deform_bones,
+    Batch_Export_Shapkeys_as_OBJs
 
 ]
 
