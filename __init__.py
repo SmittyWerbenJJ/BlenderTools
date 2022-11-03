@@ -24,7 +24,7 @@ bl_info = {
 }
 
 from . import ui
-# from .src import
+from .src import select_deform_bones
 
 import bpy
 # ---------------------------------------------
@@ -33,7 +33,8 @@ import bpy
 
 #ui has to be registered first
 tools=[
-    ui
+    ui,
+    select_deform_bones
 
 ]
 
